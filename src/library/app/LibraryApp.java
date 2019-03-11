@@ -6,8 +6,8 @@ import library.io.DataReader;
 public class LibraryApp {
 
     public static void main(String[] args) {
-	    final String appName = "Biblioteka v0.3";
-	    System.out.println(appName);
+	    final String APP_NAME = "Biblioteka v0.3";
+	    System.out.println(APP_NAME);
         LibraryControl libControl = new LibraryControl();
         libControl.controlLoop();
     }
