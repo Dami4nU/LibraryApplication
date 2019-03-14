@@ -34,4 +34,8 @@ public class Publication {
     void setPublisher(String publisher) {
         this.publisher = publisher;
     }
+
+    public void printInfo() {
+
+    }
 }
