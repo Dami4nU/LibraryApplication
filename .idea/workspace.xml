@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0d99f09f-14fc-404e-98ab-6c561b6e7a3b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/library/model/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/library/model/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/library/model/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/library/model/Library.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/library/model/Magazine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/library/model/Magazine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/library/model/Publication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/library/model/Publication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/library/app/LibraryControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/library/app/LibraryControl.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,20 +32,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/library/model/Library.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
+            <state relative-caret-position="238">
               <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/library/app/Option.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" column="36" lean-forward="true" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/library/app/LibraryControl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1343">
-              <caret line="79" column="36" selection-start-line="79" selection-start-column="36" selection-end-line="79" selection-end-column="36" />
+            <state relative-caret-position="799">
+              <caret line="71" column="11" lean-forward="true" selection-start-line="71" selection-start-column="11" selection-end-line="71" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -86,6 +92,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -100,12 +107,13 @@
         <option value="$PROJECT_DIR$/src/library/Book.java" />
         <option value="$PROJECT_DIR$/src/library/app/Library.java" />
         <option value="$PROJECT_DIR$/src/library/io/DataReader.java" />
-        <option value="$PROJECT_DIR$/src/library/app/LibraryControl.java" />
         <option value="$PROJECT_DIR$/src/library/app/LibraryApp.java" />
         <option value="$PROJECT_DIR$/src/library/model/Publication.java" />
         <option value="$PROJECT_DIR$/src/library/model/Book.java" />
         <option value="$PROJECT_DIR$/src/library/model/Magazine.java" />
         <option value="$PROJECT_DIR$/src/library/model/Library.java" />
+        <option value="$PROJECT_DIR$/src/library/app/Option.java" />
+        <option value="$PROJECT_DIR$/src/library/app/LibraryControl.java" />
       </list>
     </option>
   </component>
@@ -122,6 +130,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -165,7 +174,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -173,6 +181,9 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552407304667" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -227,18 +238,19 @@
       <workItem from="1552649747121" duration="2127000" />
       <workItem from="1552776678736" duration="591000" />
       <workItem from="1552999530152" duration="614000" />
-      <workItem from="1553334877726" duration="590000" />
+      <workItem from="1553334877726" duration="1003000" />
+      <workItem from="1554313051363" duration="594000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39257000" />
+    <option name="totallyTimeSpent" value="40264000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.10341151" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.07356077" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -318,10 +330,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/library/app/LibraryControl.java">
+    <entry file="file://$PROJECT_DIR$/src/library/model/Library.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1343">
-          <caret line="79" column="36" selection-start-line="79" selection-start-column="36" selection-end-line="79" selection-end-column="36" />
+        <state relative-caret-position="238">
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -346,10 +358,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/library/model/Library.java">
+    <entry file="file://$PROJECT_DIR$/src/library/app/Option.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        <state relative-caret-position="340">
+          <caret line="20" column="36" lean-forward="true" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/library/app/LibraryControl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="71" column="29" selection-start-line="71" selection-start-column="29" selection-end-line="71" selection-end-column="29" />
         </state>
       </provider>
     </entry>

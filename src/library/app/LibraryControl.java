@@ -6,26 +6,20 @@ import library.model.Library;
 import library.model.Magazine;
 
 public class LibraryControl {
-    // zmienne do kontrolowania programu
-    private static final int EXIT = 0;
-    private static final int ADD_BOOK = 1;
-    private static final int ADD_MAGAZINE = 2;
-    private static final int PRINT_BOOKS = 3;
-    private static final int PRINT_MAGAZINES = 4;
-    // zmienna do komunikacji z użytkownikiem
+    // variable which lets comunicate with user
     private DataReader dataReader = new DataReader();
-    // "biblioteka" przechowująca dane
+    // "library" keeps data
     private Library library = new Library();
 
     /*
-        Główna metoda programu, która pozwala na wybór opcji i interakcje
+        Main application method which lets choose options and make interaction
     */
     public void controlLoop(){
-        int option;
+        Option option;
 
         do {
             printOptions();
-            option = dataReader.getInt();
+            option = Option.createFromInt(dataReader.getInt());
             switch(option){
                 case ADD_BOOK:
                     addBook();
@@ -45,16 +39,14 @@ public class LibraryControl {
                 default:
                     System.out.println("Nie ma takiej opcji, wprowadź ponownie.");
             }
-        } while (option != EXIT );
+        } while (option != Option.EXIT );
     }
 
     private void printOptions(){
         System.out.println("Wybierz opcję: ");
-        System.out.println(EXIT + " - wyjście z programu");
-        System.out.println(ADD_BOOK + " - dodanie nowej książki");
-        System.out.println(ADD_MAGAZINE + " - dodanie nowego magazynu");
-        System.out.println(PRINT_BOOKS + " - wyświetl dostępne książki");
-        System.out.println(PRINT_MAGAZINES + " - wyświetl dostępne magazyny");
+        for(Option option : Option.values()) {
+            System.out.println(option);
+        }
     }
 
     private void addBook(){
@@ -77,7 +69,7 @@ public class LibraryControl {
 
     private void exit(){
         System.out.println("Koniec programu.");
-        // zamykamy strumień wejścia
+        // close input stream
         dataReader.close();
     }
 
